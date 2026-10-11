@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakbay Southern Leyte | Discover the Beauty of Southern Leyte</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= HEADER SECTION ================= -->
+    <header class="site-header">
+        <div class="logo">
+            <h1>Lakbay<span>Southern Leyte</span></h1>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <a href="#book" class="btn-primary">Book Now</a>
+        </div>
+    </header>
+
+    <!-- ================= HOME / HERO & CONTENT SECTION ================= -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <!-- BACKGROUND VIDEO PLACEHOLDER -->
+            <div class="video-container">
+                 <video autoplay muted loop id="bg-video">
+                    <source src="assets/background.jah.mp4" type="video/mp4">
+                </video> 
+                <div class="video-fallback-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <h2>Discover the Beauty of Southern Leyte</h2>
+                <p>From world-class dive spots to hidden tropical paradises, start your journey here.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Where in Southern Leyte do you want to go?">
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destinations Section -->
+        <section id="destinations" class="destinations-section">
+            <div class="section-title">
+                <h3>Featured Destinations</h3>
+                <p>Some of the most breathtaking places you must visit</p>
+            </div>
+
+            <div class="grid-container">
+                <!-- Destination Card 1: Limasawa -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Limasawa Island">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Limasawa</span>
+                        <h4>History & White Sand Beaches</h4>
+                        <p class="price">From ₱1,500 / person</p>
+                    </div>
+                </div>
+
+                <!-- Destination Card 2: Sogod Bay / Whale Sharks -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Sogod Bay Diving">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Sogod Bay</span>
+                        <h4>Whale Shark Encounter & Diving</h4>
+                        <p class="price">From ₱2,500 / person</p>
+                    </div>
+                </div>
+
+                <!-- Destination Card 3: Panaon Island -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80" alt="Panaon Island">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Panaon Island</span>
+                        <h4>Clear Waters & Marine Life</h4>
+                        <p class="price">From ₱2,000 / person</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Lakbay Southern Leyte. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
